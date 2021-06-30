@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookContainerFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="21dp">
+
+        <TextView
+            android:id="@+id/tvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/buttonsLayout"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="@string/available_books" />
+
+        <LinearLayout
+            android:id="@+id/buttonsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnHome"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:backgroundTint="@color/black"
+                android:visibility="gone"
+                app:cornerRadius="5dp"
+                app:icon="@drawable/home_icon"
+                app:iconSize="20dp"
+                app:iconTint="@color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAvbWorkshops"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="7dp"
+                android:backgroundTint="@color/black"
+                app:cornerRadius="5dp"
+                app:icon="@drawable/ic_baseline_library_books"
+                app:iconSize="20dp"
+                app:iconTint="@color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSignOut"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="7dp"
+                android:backgroundTint="@color/red"
+                android:visibility="gone"
+                app:cornerRadius="5dp"
+                app:icon="@drawable/ic_baseline_logout_24"
+                app:iconSize="20dp"
+                app:iconTint="@color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/child_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

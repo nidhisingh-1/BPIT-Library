@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BPIT-Library</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="countdown">Resend Verification Mail in %ds</string>
+    <string name="available_books">Available Books</string>
+    <string name="student_dashboard">Student Dashboard</string>
+    <string name="welcome">Welcome,\n%s</string>
+    <string name="your_book_list">Your Book List</string>
+    <string name="most_recent">Most Recent</string>
+    <string name="all_workshops">All Books</string>
+    <string name="add_to_list">Add</string>
+    <string name="listed">Listed</string>
+    <string name="illustration">illustration</string>
+</resources>

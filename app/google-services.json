@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "286997288726",
+    "project_id": "bpit-library",
+    "storage_bucket": "bpit-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286997288726:android:f3cbf03a054d7445a22237",
+        "android_client_info": {
+          "package_name": "com.example.nidhi.bpit_library"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286997288726-jsd9gpueahk6ckddutupq37cdctm9nm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDptOg_nt3q_zm6SMw8vMW9fWoIHGzAR4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286997288726-jsd9gpueahk6ckddutupq37cdctm9nm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
