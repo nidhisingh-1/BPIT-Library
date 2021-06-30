@@ -13,25 +13,25 @@ class BookModel(
             BookModel(
                 R.drawable.algo_to_live_by,
                 "Algo to live by",
-                "A fascinating exploration of how insights from computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mind",
+                "A fascinating exploration of how insights from computer algorithms.",
                 "10"
             ),
             BookModel(
                 R.drawable.c_programming,
                 "THE C PROGRAMMING LANGUAGE",
-                "C Programming Language 2nd Edition is a book that gives you just what you need to know about this powerful programming language. ",
+                "C Programming Language 2nd Edition is a book that gives you just what you need to know about C. ",
                 "9"
             ),
             BookModel(
                 R.drawable.new_machine,
                 "The Soul of A New Machine",
-                "Tracy Kidder's riveting story of one company's efforts to bring a new microcomputer to market won both the Pulitzer Prize and the National Book Award and has...",
+                "Tracy Kidder's riveting story of one company's efforts to bring a new microcomputer has...",
                 "19"
             ),
             BookModel(
                 R.drawable.art_programming,
                 "Art of Computer Programming",
-                "The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming.",
+                "The bible of all fundamental algorithms and the work that taught many of today's software developers most...",
                 "4"
             ),
             BookModel(
